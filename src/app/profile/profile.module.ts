@@ -11,10 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { ReferenceComponent } from './reference/reference.component';
-import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
-import { ProjectsComponent } from './projects/projects.component';
 import { ReactiveFormsModule } from '@angular/forms';  
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -39,10 +36,7 @@ import {ContactService} from '../contact.service'
     SkillsComponent,
     PortfolioComponent,
     ExperienceComponent,
-    EducationComponent,
-    ReferenceComponent,
-    ContactComponent,
-    ProjectsComponent
+    EducationComponent
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
